@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Varela+Round&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Nunito', sans-serif; 
+    Background: #5F7285
+}
+
+img{
+    display: block;
+    width: 500px;
+    height: 375px;
+}
+img[alt="Ciclo de vida do Dragão de Komodo"]{
+    width: 300px;
+}
+h1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 105px; 
+    color: #fff;
+}
+h2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+p{
+    font-size: 14px;
+    color: #fff;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    background-color: #829DAD;
+    text-align: right;
+}
+li{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    font-size:  13px;
+    background-color: #829DAD;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+a:hover{
+    background-color: #36B0E0;
+}
+
+@media(max-width:600px){
+    img{
+        margin: 0;
+        width: 300px;
+        height: 300px;
+    }
+    img[alt="Ciclo de vida do Dragão de Komodo"]{
+        width: 300px;
+    }
+}

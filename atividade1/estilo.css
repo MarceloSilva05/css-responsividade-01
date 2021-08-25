@@ -1,0 +1,44 @@
+body{
+    font-family: cursive; 
+}
+img{
+    width: 350px;
+    height: 255px;
+}
+#img_1{
+    float: left;
+}
+#img_2{
+    float: right;
+}
+h1{
+    text-align: center;
+}
+@media(min-width:300px){
+    body{
+        background-color: rgba(255, 255, 0, 0.616);
+    }
+}
+@media(max-width:700px){
+    body{
+        background-color: rebeccapurple;
+    }
+    #img_1{
+        width: 50%;
+        height: 50%;
+        float: none;
+        display:block;
+        margin: 0 auto;
+    }
+    #img_2{
+        width: 50%;
+        height: 50%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    h1{
+        text-align: left;
+        color: royalblue;
+    }
+}
